@@ -12,16 +12,14 @@ To get started, clone the repository and install the required packages: ```bash 
 ## Usage
 ### Training Models
 To train the XGBoost models:
-python src/train_xgb.py --data_path data/training_data.csv
+python src/train_xgb.py
 
 ### Testing Models
 To test the trained models:
-python src/test_data.py --model_path models/xgb_model.json --data_path data/test_data.csv
-
+python src/test_data.py
 ### Model Selection
 To compare different models:
-python src/model_selection.py --data_path data/complete_dataset.csv
-
+python src/model_selection.py
 ## Results
 The results of our models are evaluated based on RMSE and ICC metrics. Below are some of the visualizations from our experiments:
 ![Fig 3 - Copy](https://github.com/user-attachments/assets/82ec2dad-afec-4d1a-8a2b-48cdf62001c9)
